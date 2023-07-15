@@ -1,0 +1,279 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+  background-color: lightgray;
+  padding: 5px;
+}
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+}
+.header-nav-img {
+  width: 35vh;
+  justify-content: center;
+}
+.header .menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.header .menu-link {
+  width: 3vh;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.destinos {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.destinos-logotipos {
+  width: 50px;
+}
+.destinos .button {
+  margin: 0;
+  border: none;
+  background-color: transparent;
+  gap: 50px;
+  margin-left: 15px;
+}
+
+.galeria {
+  background-color: white;
+  margin-left: 150px;
+  margin-right: 150px;
+  display: flex;
+  justify-items: center;
+  flex-wrap: wrap;
+}
+
+.hijo {
+  background-color: whitesmoke;
+  padding: 12px;
+}
+.hijo-img {
+  justify-content: center;
+  align-items: center;
+  width: 70vh;
+}
+.hijo-h2 {
+  background-color: whitesmoke;
+  font-weight: bold;
+}
+.hijo .p {
+  background-color: white;
+}
+
+.galeria-ind-precio {
+  background-color: white;
+  padding: 15px;
+  border-color: darkolivegreen;
+  color: darkolivegreen;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.p {
+  background-color: white;
+}
+
+.button-g {
+  background-color: white;
+  color: darkolivegreen;
+  margin: 0;
+  border: none;
+  background-color: transparent;
+  gap: 50px;
+  margin-left: 15px;
+}
+
+.ofertas {
+  background-color: white;
+}
+.ofertas-div {
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.ofertas-div-h3 {
+  font-size: xx-large;
+  margin-bottom: 12px;
+}
+.ofertas-div-p {
+  font-size: medium;
+}
+
+.footer1 {
+  background-color: white;
+  margin-top: 50px;
+  margin-left: 150px;
+  margin-right: 150px;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+}
+.footer1-a {
+  text-decoration: none;
+  color: darkolivegreen;
+  margin-left: 40px;
+  gap: 15px;
+}
+.footer1-img {
+  margin-bottom: 90px;
+  margin-left: 20px;
+  width: 5vh;
+}
+
+.footer-modulos {
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.footer-modulos-img {
+  padding: 10px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-link {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 100px;
+}
+.footer-link-h4 {
+  font-size: medium;
+  font-weight: bold;
+  color: darkolivegreen;
+  list-style: none;
+}
+.footer-link-h4-il {
+  font-size: small;
+  list-style: none;
+}
+
+.metodos-pago {
+  margin-left: 50px;
+  list-style: none;
+  display: inline-block;
+  align-items: center;
+}
+
+.footer {
+  margin-top: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  font-size: xx-small;
+}
+
+.link {
+  list-style: none;
+  display: inline-block;
+  align-items: center;
+}
+
+.metodos-pago {
+  margin-left: 50px;
+  list-style: none;
+  display: inline-block;
+  align-items: center;
+}
+
+.footer2 {
+  margin-top: 35px;
+  margin-bottom: 15px;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  font-size: xx-small;
+}
+
+.main {
+  list-style: none;
+  display: inline-block;
+  justify-content: space-around;
+}
+
+.icono {
+  width: 10px;
+}
+
+.footer2 {
+  margin-top: 35px;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  font-size: xx-small;
+}
+
+.main {
+  list-style: none;
+  display: inline-block;
+  justify-content: space-around;
+}
+
+.icono {
+  width: 10px;
+}
+
+.footer2 {
+  margin-top: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  font-size: xx-small;
+}
+
+.link {
+  list-style: none;
+  display: inline-block;
+  align-items: center;
+}
+
+.footer-end {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  display: flex;
+  font-size: small;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer-end-a {
+  justify-content: left;
+  margin-left: none;
+}
+.footer-end-img {
+  margin-right: 60px;
+  height: 5vh;
+  justify-content: center;
+}
+
+.end-img {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+}/*# sourceMappingURL=style.css.map */

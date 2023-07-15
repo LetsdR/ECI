@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+  background-color: #929292;
+  padding: 5px;
+}
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+}
+.header-nav-img {
+  width: 40vh;
+  justify-content: center;
+}
+.header .menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.header .menu-link {
+  width: 3vh;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.destinos {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.destinos-logotipos {
+  width: 50px;
+}
+.destinos .button {
+  border: none;
+  background-color: transparent;
+  gap: 50px;
+  margin-left: 15px;
+}
+
+.galeria {
+  background-color: #929292;
+  display: flex;
+  justify-items: center;
+  flex-wrap: wrap;
+}
+.galeria-ind {
+  background-color: whitesmoke;
+  margin: 25px;
+  width: 400px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.galeria-ind-precio {
+  padding: 15px;
+  color: darkolivegreen;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: none;
+  gap: 15px;
+}
+.galeria .img {
+  width: 100%;
+}
+.galeria-hijo-h2 {
+  font-weight: bold;
+}/*# sourceMappingURL=style.css.map */

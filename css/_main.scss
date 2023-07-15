@@ -1,0 +1,72 @@
+.destinos{
+background-color: white;
+display:flex;
+justify-content:center;
+align-items: center;
+
+&-logotipos{
+    width: 50px;
+}
+.button{
+    margin:0;
+    border:none;
+    background-color: transparent;
+    gap: 50px;
+    margin-left: 15px;
+ }        
+  }
+
+.galeria{
+    background-color:white;
+    margin-left: 150px;
+    margin-right: 150px;
+    display:flex;
+    justify-items:center;
+    flex-wrap:wrap;
+ }
+.hijo{ 
+        background-color: whitesmoke;
+        padding:12px;
+         &-img{
+            justify-content: center;
+            align-items: center;
+            width: 70vh;
+        }
+        
+        &-h2{
+            background-color: whitesmoke;
+            font-weight: bold;  
+        }
+        .p{
+            background-color: white;
+        }
+            }
+        
+    
+.galeria-ind-precio{
+    background-color: white;
+    padding: 15px;
+    border-color: darkolivegreen;
+    color:darkolivegreen;
+    font-size: 20px;
+    display:flex;
+    justify-content: space-between;
+    gap:15px;
+}
+.p{
+    background-color: white;
+}
+.button-g{
+    background-color: white;
+    color:darkolivegreen;
+    margin:0;
+    border:none;
+    background-color: transparent;
+    gap: 50px;
+    margin-left: 15px;
+
+}
+             
+     
+
+ 

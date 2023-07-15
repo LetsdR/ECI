@@ -1,0 +1,24 @@
+.header{
+    background-color:lightgray;
+    padding:5px;
+    &-nav{
+    display: flex;
+    justify-content: space-between;
+ }   
+    &-nav-img{
+        width: 35vh;
+        justify-content: center;   
+    }
+
+   .menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    &-link{
+        width: 3vh; 
+        margin-left: 15px;
+        margin-right: 15px;
+   }
+     }
+     }
